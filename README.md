@@ -40,7 +40,7 @@ An app that helps a user organize a packing list, receive a weather forecast and
 Campy consists of 5 HTML pages, each containing unique functions for user engagement.
 | HTML | UI Function |
 | ------ | ------ |
-| Index | Introduction landing page. |
+| Index | Introduction landing page with images hyperlinked to their respective HTML. |
 | Gear | Drag and drop options from hard-coded lists based on various camping styles, each with unique packing list recommendations. |
 | Weather & Map | Search LocationIQ and OpenWeather APIs by entering a city & state to see a 7-day forecast and map. |
 | Meals | Search MealDB and CocktailDB APIs to get recipes with images, ingredients, measurements, and instructions. |
