@@ -103,15 +103,15 @@ h8 {
 }
 
 #zipcode{
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 #search1{
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 #search2{
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 @-webkit-keyframes glow {
@@ -147,20 +147,14 @@ h10 {
   font-weight: lighter;
 }
 
-/* .header1 {
-  padding-top: 6%;
-  padding-bottom: 10%;
-  text-align: center;
-} */
 
-/* Float two columns side by side */
 .column1 {
   float: left;
   width: 45%;
   padding: 0 10px;
   margin-left: 4%;
   font-family: "National Park Regular";
-  font-size: 20px;
+  font-size: 25px;
   font-weight: lighter;
 }
 
@@ -170,7 +164,7 @@ h10 {
   padding: 0 10px;
   margin-right: 4%;
   font-family: "National Park Regular";
-  font-size: 20px;
+  font-size: 25px;
   font-weight: lighter;
 }
 
@@ -180,7 +174,7 @@ h10 {
   padding: 1rem;
   margin-top: 1rem;
   font-family: "National Park Regular";
-  font-size: 20px;
+  font-size: 25px;
   font-weight: lighter;
 }
 
@@ -188,10 +182,11 @@ h10 {
   padding: 1rem;
   border: 5px solid orange;
   border-radius: 25px;
+  background-color: rgba(0, 190, 248, 0.301);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   font-family: "National Park Regular";
-  font-size: 20px;
+  font-size: 25px;
   font-weight: lighter;
   text-align: center;
   color: white;
@@ -210,7 +205,6 @@ h10 {
   align-items: center;
   margin-left: 10%;
   margin-right: 8%;
-  /* padding-left: 25%; */
   font-family: "National Park Regular";
   font-size: 20px;
   font-weight: lighter;
@@ -221,7 +215,6 @@ h10 {
   width: 20%;
   padding: 0 10px;
   margin-left: 5%;
-  /* margin-top: 1%; */
   -webkit-filter: drop-shadow(3px 3px 3px #222);
   filter: drop-shadow(3px 3px 3px #222);
 }
@@ -233,7 +226,6 @@ h10 {
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 1%;
-  /* margin-bottom: 10px; */
 }
 
 .meal {
@@ -242,7 +234,6 @@ h10 {
   padding: 0 10px;
   margin-left: 4%;
   margin-top: 1%;
-  /* margin: 0 auto; */
 }
 
 .drink {
@@ -251,7 +242,6 @@ h10 {
   padding: 0 10px;
   margin-right: 4%;
   margin-top: 1%;
-  /* margin: 0 auto; */
 }
 
 #search {
@@ -296,10 +286,6 @@ h10 {
   text-align: left;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
-/* .row {
-  margin: 0 -5px;
-} */
 
 /* Clear floats after the columns */
 .row:after {
@@ -320,9 +306,6 @@ h10 {
   background-color: rgba(0, 190, 248, 0.301);
 }
 
-/* h1, p{
-  color: #ffffff;
-} */
 
 body {
   background-image: url("../assets/images/camp_001_rev.jpg");
@@ -333,21 +316,6 @@ body {
   background-size: cover;
 }
 
-/* body, html {
-  /* height: 100%; }*/
-
-/*.parallax {
-  /* The image used */
-/* background-image: url("../assets/images/cabin_001.jpg"); */
-
-/* Full height */
-
-/* Create the parallax scrolling effect */
-
-/* background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;} */
 
 * {
   margin: 0;
@@ -358,15 +326,6 @@ a {
   text-decoration: none;
 }
 
-/* .navbar {
-  display: flex;
-  justify-content: space-between;
-  width: 100vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  font-size: 20px;
-} */
-
 .logo {
   font-family: "Wooden Log";
   margin-left: 4%;
@@ -374,11 +333,6 @@ a {
   color: #ffffff;
   font-size: 90px;
 }
-
-/* .logo_header {
-  display: flex;
-  margin-left: 5%;
-} */
 
 .logo:hover {
   color: white;
@@ -390,12 +344,9 @@ a {
   font-family: "Wooden Log";
   font-size: 30px;
   color: rgb(255, 203, 143);
-  /* width: 20%; */
-  /* float: right; */
   margin-right: 3%;
   margin-left: 3%;
   justify-content: space-between;
-  /* list-style: none; */
 }
 
 .nav_links:hover {
@@ -411,19 +362,13 @@ a {
   color: #ffffff;
 }
 
-/* styling for tabs ; this hides it all*/
 [data-tab-content] {
   display: none;
 }
-/* active class will be visiable */
+
 .active[data-tab-content] {
   display: block;
 }
-
-/* body {
-  padding: 0;
-  margin: 0;
-} */
 
 .tabs {
   display: flex;
@@ -454,7 +399,6 @@ a {
   margin-right: 20px;
 }
 
-/* ----------------Wajma new changes---------------- */
 .tabstabs {
   display: flex;
   flex-wrap: wrap;
@@ -490,7 +434,6 @@ a {
   display: initial;
 }
 
-/* ----------------Wajma new changes---------------- */
 
 #icon {
   margin: 1%;
@@ -561,7 +504,6 @@ a {
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  /* text-align: center; */
   color: white;
   background-color: rgba(0, 190, 248, 0.301);
 }
